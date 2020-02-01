@@ -1,0 +1,105 @@
+/* #E4B8DD
+#F9D7D4>>>#F5D9D5
+#FA0B00>>>#EA1C2C
+#BAECFA
+#FC9EB9
+*/
+
+
+
+body{
+    background-color: rgb(249, 215, 212);
+        font-family: Nunito;
+        font-weight: 200;
+
+        /*
+        **background-image: url(imgs/bg2.jpg);
+        **background-repeat: no-repeat;
+        **background-size: 50%;
+        **background-attachment: fixed
+        */
+
+}
+
+.bg-light {
+    background-color: transparent !important;
+    font-family: Nunito;
+    font-weight: 300;
+    font-size: 1.5rem;
+
+}
+
+.navbar-brand{
+    color: #FA0B00 !important;
+    font-size: 1.5rem;
+    font-weight: 100;
+
+}
+
+.fixed-top.scrolled {
+    background-color: #E4B8DD !important;
+    transition: background-color 200ms linear;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: #fc6a62 !important;
+}
+#customNavbar ul li a{
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: white;
+}
+#customNavbar ul li a:hover {
+    color: #fc6a62 !important;
+}
+
+h1,span{
+    color: #FA0B00;
+    font-family: Nunito;
+    font-weight: 200;
+
+}
+
+p{
+    color: #FC9EB9;
+    line-height: 2;
+}
+
+.col-lg-6,
+.col-md-6 {
+    padding: 0;
+}
+
+#mainSection {
+    line-height: 1.5;
+    font-size: 60px;
+}
+
+
+@media screen and (max-width: 1230px) {
+    #mainSection {
+        font-size: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    #mainSection {
+        font-size: 2.5rem;
+    }
+}
+
+/* @media screen and (min-width: 768px) {
+    p {
+line-height: 1.5;
+    }
+} */
+/* No greater than 1200px, no less than 768px */
+@media (max-width:1200px) and (min-width:768px) {
+
+    p {
+    line-height: 1.5;
+}
+
+}
+
